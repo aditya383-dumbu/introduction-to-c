@@ -1,0 +1,139 @@
+1.c has few keywords, a simple structure and a clearly definedsyntax.this makes it easy to catch for beginners
+2.the execution time for a c code is not the fastest among all programming languages.but the speed improves as
+  the quantity of the data to be processed increases astronomically
+3.c provides a variety of instructions to handle the memory allocation of its resources.if something can be
+  achieved using lesser resources,c has the means to achieve that
+4.c's bulk libraries are very portable and cross platform compatible with UNIX,Windows,and Macintosh
+5.being a high level lan its english like instructions are converted into machine-level code using a software
+  program called compiler
+6.c can run a wide variety of hardware platforms and has the same interface on all of those
+
+compiled language:
+compiled languages are converted directly into machine code that the processor can execute.As a result,they
+tend to be faster and more efficient to execute than interpreted languages.
+eg:c,c++,Erlang,haskell,rust,java and go
+interpreted language:
+interpreters run through a program line by line and execute each command.
+eg:python,ruby,etc
+
+in very simple terms,the compiled programming language will never let you run the code if there is an error in
+your program.
+on the other hand, an interpreted programming lang just starts running the code even if there are errors in your 
+program.
+
+c is a compiled lang.
+a compiler is a program that translates code written in one programming lang into another lang.
+1)preprocessor: this readies the code for execution by removing any comments,replacing procedure calls with actual
+  code.
+2)compilation: it converts preprocessed code into assembly(low level)lang.
+3)assembler:this converts assembly lang code into machine code that is a string of 1's and 0's(binary code).
+
+c is used for:
+desktop app development
+game development
+embedded systems
+operating systems
+compiler development etc.
+
+due to its feature of memory management,c is the top choice for embedded systems development.
+is deals with microcontrollers or microprocessers,say,any mechine that is controlled via inputs.C is used to create 
+a logic that can control such devices.
+A majority of R programming lang is written using C
+
+we will be using the simplest way for getting this by using the GCC compiler.
+GCC: GNU compiler collection
+
+
+1.header files inclusion - #include <stdio.h>
+there are differnt header files like
+#include <stdlib.h>
+#include <math.h>
+
+we will use printf() to print something in the c.
+but the compiler understands this functioon only because a header file called<stdio.h> is included
+
+2.Main function-main()
+it is like heart of the code.
+
+3.the last statement return is like an exit command for the compiler to understand that its come to an end.
+4.the curly braces {} are used a lot in programming and they define a block of code
+
+the keyword 'int' signifies an integer data type.
+
+/* line of code */ --> used for commenting
+
+in C we assign symbolic names,known as variables,for storing informatoin in memory.
+varibles can be used to store floating-point,numbers(decimals),character,and even pointers to other locations in
+memory.
+
+variable name
+assignment operator(assign the value using =)
+data needed to be stored
+
+c is statically typed lang.
+
+defining a variable:
+int age = 23;
+here we have int data type declaring the variable age as an integer,
+semicolons will appear to signify a single line of action.
+
+to print age of that respective variable
+
+int age=23;
+printf("%d",age);
+
+rules that you must follow while declaring a variable
+1)a variable name should be meaningful and descriptive.
+2)a variable name must start with a letter or the underscore character.
+3)name cant start with numbers.
+4) a variable should only contain alphabets,numerics and underscrores.
+5)variables in c are case sensitive.
+
+data types are the classifications or categorization of data items.
+
+there are different types of data types
+1)char- holds textual data in simpler words it contains of words.
+2)int- stores integer numbers. 
+3)float-stores decimal numbers.
+4)double-stores more numbers than int and even shows decimal points.
+
+an int data type can hold 32 bits of data => 2^32-1=4294967285 is the largest value that this data type
+can hold.
+
+signed and unsigned:
+if signed is used with a data type , then half of its limit is used for negitive numbers and other half for 
+postive numbers.
+
+use commas to separate multiple variables on a single line and a ; at the end.
+
+% symbol within a printf()function informs the compiler to print some value that is defined later within the function
+,"d" is used for decimal numbers
+
+float-%f
+double-%lf
+
+%.3f --> the digit here specifies the number of places to be shown after the decimal point
+
+char single='c';
+//%c is used 
+printf("the single char is: %c",single);
+
+<stdbool.h> is used for boolean.
+
+Math in c:
+5+3=8 here 5 & 3 are operands and + is operator
+different types of operators:
+1)arithmatic operators
+2)relational operators
+3)logical operators
+4)bitwise operators
+
+%is used for remainder
+
+comparison operators:
+>greater than: true if left operand is greater than the right
+<less than:true if left operand is less than the right
+==equal to
+!= not equal to
+>= greater than or equal to
+<= less than or equal to
